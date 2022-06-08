@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <section class="main container">
+    <section class="main container" id="main">
         <div class="main__info">
             <img src="img/revo_logo.png" alt="" class="main__logo" />
             <div class="main__title_div">
@@ -38,27 +38,27 @@
             </a>
             <ul class="nav__menu">
                 <li class="main__menu_items">
-                    <a href="" class="menu__items_a">Main</a>
+                    <a href="#main" class="menu__items_a">Main</a>
                 </li>
                 <li class="main__menu_items">
-                    <a href="" class="menu__items_a">Coffee</a>
+                    <a href="#coffee" class="menu__items_a">Coffee</a>
                 </li>
                 <li class="main__menu_items">
-                    <a href="" class="menu__items_a">PLATING COLOR</a>
+                    <a href="#shop" class="menu__items_a">PLATING COLOR</a>
                 </li>
                 <li class="main__menu_items">
-                    <a href="" class="menu__items_a">Combo</a>
+                    <a href="#giftset" class="menu__items_a">GiftSet</a>
                 </li>
                 <li class="main__menu_items">
-                    <a href="" class="menu__items_a">GiftSet</a>
+                    <a href="#combo" class="menu__items_a">Combo</a>
                 </li>
                 <li class="main__menu_items">
-                    <a href="" class="menu__items_a">CONTACT</a>
+                    <a href="#contact" class="menu__items_a">CONTACT</a>
                 </li>
             </ul>
         </aside>
     </section>
-    <section class="coffee">
+    <section class="coffee" id="coffee">
         <div class="section__titles">
             <h3 class="small__title">Your Personalized Coffee</h3>
             <h2 class="h2__title title">COFFEE BUILD YOUR BASE</h2>
@@ -94,7 +94,7 @@
             </div>
         </div>
     </section>
-    <section class="shop container">
+    <section class="shop container" id="shop">
         <div class="section__titles">
             <h3 class="small__title">Choose Your Favorite</h3>
             <h2 class="h2__title title">STANDARD CORRECT UNIT</h2>
@@ -267,7 +267,7 @@
             </div>
         </div>
     </section>
-    <section class="giftset container">
+    <section class="giftset container" id="giftset">
         <div class="section__titles">
             <h3 class="small__title">Best Gift For Best Friend</h3>
             <h2 class="h2__title title">GIFTSET</h2>
@@ -317,8 +317,8 @@
             </div>
         </div>
     </section>
-    <section class="combo container">
-        <div class="section__titles">
+    <section class="combo container" id="combo">
+        <div class="section__titles section__titles_combo">
             <h3 class="small__title">Your Personalized Coffee</h3>
             <h2 class="h2__title title">COMBO FILTER COFFEE</h2>
         </div>
@@ -333,9 +333,46 @@
                         <p class="cards__price_sale">155.000</p>
                     </div>
                     <h5 class="cards__title cards__title_combo">Combo Revo Bold</h5>
-
-                    <p>
+                    <p class="combo__col_text">
                         The content of caffeine in Revo Bold strong enough to make you awake...
+                    </p>
+                    <div class="cards__but combo__but">
+                        <a href="#" class="cards__button button">BUY NOW</a>
+                        <a href="#" class="cards__details">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="combo__columns_col">
+                <div class="combo__col_img">
+                    <img src="img/comboEveryday.png" alt="">
+                </div>
+                <div class="combo__col_about">
+                    <div class="combo__cards_price">
+                        <p class="cards__price">156.000</p>
+                        <p class="cards__price_sale">165.000</p>
+                    </div>
+                    <h5 class="cards__title cards__title_combo">Combo Revo Everyday</h5>
+                    <p class="combo__col_text">
+                        Revo Everyday is mixing between bitter taste of Robusta beans and aroma...
+                    </p>
+                    <div class="cards__but combo__but">
+                        <a href="#" class="cards__button button">BUY NOW</a>
+                        <a href="#" class="cards__details">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="combo__columns_col">
+                <div class="combo__col_img">
+                    <img src="img/comboRevoHoney.png" alt="">
+                </div>
+                <div class="combo__col_about">
+                    <div class="combo__cards_price">
+                        <p class="cards__price">275.000</p>
+                        <p class="cards__price_sale">260.000</p>
+                    </div>
+                    <h5 class="cards__title cards__title_combo">Combo Revo Honey</h5>
+                    <p class="combo__col_text">
+                        Honey – in the name Revo Honey comes from the method of processing Arabica beans...
                     </p>
                     <div class="cards__but combo__but">
                         <a href="#" class="cards__button button">BUY NOW</a>
@@ -345,6 +382,12 @@
             </div>
         </div>
     </section>
+    <footer class="container footer" id="contact">
+        <div class="footer__title">
+            <p>Design: © Revo Coffee Vietnam - 2018</p>
+            <p>Developer: Yar_Web</p>
+        </div>
+    </footer>
     <script src=" js/slider.js "></script>
 </body>
 
